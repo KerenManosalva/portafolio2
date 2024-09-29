@@ -1,0 +1,405 @@
+
+*{
+    font-family: "Montserrat",sans-serif;
+    font-style: normal;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none
+    
+}
+
+body{
+overflow-x: hidden;
+background-color: white;
+background-size: cover;
+background-position: center center;
+height: calc(100vh - 80px);
+}
+nav {
+height: 80px;
+width: 100%;
+background-color:white
+}
+
+.bars{
+height: 20px;
+}
+
+.enlace{
+position: absolute;
+padding: 20px 50px;
+}
+
+
+.logo1{
+height: 30px;
+}
+
+nav ul{
+float: right;
+margin-right: 20px;
+}
+
+nav ul li{
+display: inline-block;
+line-height: 80px;
+margin: 0 20px;
+}
+
+nav  ul li a{
+color: black;
+font-size: 20px;
+}
+
+li a.active, li a:hover {
+    background-color: rgba(137, 43, 226, 0.363);
+    border-radius: 10px;
+    transition: .5s;
+}
+
+.checkbtn{
+    font-size: 20px;
+    background-color: white;
+    float: right;
+    line-height: 80px;
+    margin: 5px 10px;
+    cursor: pointer;
+    display: none;
+
+}
+
+#check{
+display: none;
+}
+
+@media ( max-width: 952px) {
+.enlace {
+    padding-left: 20px;
+
+}
+
+nav ul li a{
+    font-size: 16px;
+}
+
+}
+
+@media ( max-width: 858px) {
+
+    .checkbtn{
+    display:block ;
+    }
+    ul{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: mediumorchid; 
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    transition: all .5s;
+}
+
+nav ul li{
+display: block;
+margin: 50px 0;
+line-height: 30px;
+}
+
+nav ul li a{
+font-size: 20px;
+}
+
+li a:hover, li a:active{
+background: none;
+color: white;
+}
+#check:checked ~ ul {
+    left: 0;
+}
+}
+
+.pagcontacto{
+    margin:30px 76px;
+    margin-left: 50px;
+    margin-top: -348px;
+    line-height: 1.2;
+    display: grid
+}
+
+
+.botonservicios{
+    position: relative;
+    top: 60px;
+    left: -115px;
+    height: 44px;
+    width: 170px;
+    background-color: #CD97e5;
+    padding: 14px 51px;
+    padding-top: 12px;
+    border: 0;
+    border-radius: 40px;
+    font-style: italic;
+    font-weight: 900;
+    font-size: medium;
+    position: relative;
+    margin-top: 138px
+    
+}
+
+.fotokeren1{
+    height: 600px;
+    width: 600px;
+    position: relative;
+    top: 365px;
+    right: 50px;
+}
+
+.rectangulo2{
+    background-color: #f3cd7a;
+    height: 699px;
+    width: 713px;
+    margin-top: -128px;
+
+}
+
+
+.titulo5{
+    font-size: 40px;
+    position: relative;
+    top: -189px;
+    left: 723px;
+
+}
+.icono1{
+
+    height: 50px;
+    width: 50px;
+    position: relative;
+    top: -153px;
+    left: 721px;
+}
+
+.instagram{
+    font-style: italic;
+    font-size: 35px;
+    position: relative;
+    top: -195px;
+    left: 790px;
+}
+
+
+.icono2{
+    height: 50px;
+    width: 50px;
+    position: relative;
+    
+}
+
+.ws{
+    font-style: italic;
+    font-size: 35px;
+    position: relative;
+    top: -196px;
+    left: 790px;
+}
+
+.icono3{
+    height: 50px;
+    width: 50px;
+    position: relative;
+   
+}
+
+.correo{
+    font-style: italic;
+    font-size: 30px;
+    position: relative;
+    top: -195px;
+    left: 790px;
+}
+
+.mensajecaption{
+    font-size: 20px;
+    font-style: unset;
+    font-weight: 600;
+    letter-spacing: 4px;
+    position: relative;
+    top: -98px;
+    left: 810px;
+}
+
+.rectangulo3{
+    background-color: #CD97e5;
+    width: 96px;
+    height: 6px;
+    position: relative;
+    top: 14px;
+    left: 9px;
+}
+
+.rectangulo4{
+    background-color: #80D5F2;
+    width: 96px;
+    height: 6px;
+    position: relative;
+    top: 8px;
+    left: 105px;
+}
+
+.rectangulo5{
+    background-color: #FFC038;
+    width: 96px;
+    height: 6px;
+    position: relative;
+    top: 2px;
+    left: 199px;
+}
+
+.parrafo7{
+    font-size: 20px;
+    font-style: unset;
+    font-weight: 600;
+    letter-spacing: 4px;
+    text-align: center;
+    position: relative;
+    top: 25px;
+    left: -209px;
+}
+
+
+
+
+.backgroudmorado{
+    background-color: #8782D4;
+    height: 394px;
+    width: 13459px;
+    position: absolute;
+    top: 809pxpx;
+}
+
+.rectangulo7{
+    background-color: #ffffff;
+    width: 182px;
+    height: 7px;
+    position: relative;
+    top: 48px;
+    left: 583px;
+}
+
+.gracias{
+    color: white;
+    font-size: 34px;
+    position: relative;
+    top: 60px;
+    left: 579px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-weight: 900px;
+}
+
+.titulogracias{
+    position: relative;
+    top: 929px;
+    left: -119px;
+}
+
+.parrafo6{
+    color: white;
+    font-size: 34px;
+    position: relative;
+    top: 95px;
+    left: 424px;
+    letter-spacing: 4px;
+}
+
+.botonescribenos{
+    appearance: none;
+    background-color: transparent;
+    border: 0.125rem solid hsl(0, 0%, 100%);
+    border-radius: 2.9375rem;
+    box-sizing: border-box;
+    letter-spacing: 5px;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: normal;
+    margin: 0;
+    min-height: 3.75rem;
+    min-width: 0;
+    outline: none;
+    padding: 1em 2.3rem;
+    text-align: center;
+    transition: all 300s (cubic-bezier(0.23, 1, 0.32, 1));
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    will-change: transform;
+    position: relative;
+    top: 163px;
+    left: 568px;
+}
+
+.botonescribenos:disabled{
+pointer-events: none;
+
+}
+
+.botonescribenos:hover{
+color: #fff;
+background-color: #f0b33b;
+box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+transform: translateY(-2px);
+}
+
+.botonescribenos:active{
+    box-shadow: none;
+    transform: translateY(0);
+}
+
+
+.iconos2 img{
+    height: 30px;
+    width: 30px;
+    padding: 3px;
+    position: relative;
+    top:187px;
+    left: 635px;
+    
+    }
+    
+    .iconos2 img:disabled{
+        pointer-events: none;
+        
+        }
+    
+    .iconos2 img:hover{
+        box-shadow: rgba(0, 0, 0, 0) 0 8px 15px;
+        transform: translateY(-2px);
+        }
+        
+        .iconos2 img:active{
+            box-shadow: none;
+            transform: translateY(0);
+        }
+
+.flechafinal{
+    position: relative;
+    top: 155px;
+    left: 1278px;
+    width: 50px;
+    height: 49px
+
+}
+
+
+
+
+
+
+
+

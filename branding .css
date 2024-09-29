@@ -1,0 +1,549 @@
+
+*{
+    font-family: "Montserrat",sans-serif;
+    font-style: normal;
+    padding: 0;
+    height: calc(100vh - 80px);
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none
+    
+    
+}
+
+body{
+overflow-x: hidden;
+background-color: white;
+background-size: cover;
+background-position: center center;
+height: calc(100vh - 80px);
+}
+nav {
+height: 80px;
+width: 100%;
+background-color:white
+}
+
+.bars{
+height: 20px;
+}
+
+.enlace{
+position: absolute;
+padding: 20px 50px;
+}
+
+
+.logo1{
+height: 30px;
+}
+
+nav ul{
+float: right;
+margin-right: 20px;
+}
+
+nav ul li{
+display: inline-block;
+line-height: 80px;
+margin: 0 20px;
+}
+
+nav  ul li a{
+color: black;
+font-size: 20px;
+}
+
+li a.active, li a:hover {
+    background-color: rgba(137, 43, 226, 0.363);
+    border-radius: 10px;
+    transition: .5s;
+}
+
+.checkbtn{
+    font-size: 20px;
+    background-color: white;
+    float: right;
+    line-height: 80px;
+    margin: 5px 10px;
+    cursor: pointer;
+    display: none;
+
+}
+
+#check{
+display: none;
+}
+
+@media ( max-width: 952px) {
+.enlace {
+    padding-left: 20px;
+
+}
+
+nav ul li a{
+    font-size: 16px;
+}
+
+}
+
+@media ( max-width: 858px) {
+
+    .checkbtn{
+    display:block ;
+    }
+    ul{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: mediumorchid; 
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    transition: all .5s;
+}
+
+nav ul li{
+display: block;
+margin: 50px 0;
+line-height: 30px;
+}
+
+nav ul li a{
+font-size: 20px;
+}
+
+li a:hover, li a:active{
+background: none;
+color: white;
+}
+#check:checked ~ ul {
+    left: 0;
+}
+}
+
+
+.titulocompleto{
+    position: relative;
+    top: 185px;
+    left: 313px;
+    height: 100px;
+}
+.titulo1{
+    font-size: 100px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    line-height: 0.9;
+    text-transform: uppercase;
+}
+
+.elemento1{
+    background-color: #f0b33b;
+    border-radius: 50px;
+    height: 20px;
+    width: 20px;
+    position: relative;
+    top: -1126px;
+    left: 6px;
+
+
+}
+
+.elemento2{
+    background-color: #f0b33b;
+    border-radius: 50px;
+    height: 20px;
+    width: 20px;
+    position: relative;
+    top: -1147px;
+    left: 344px;
+
+
+}
+
+.titulo2{
+    font-weight: 800;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    line-height: 0.5;
+    font-size: 92px;
+    position: relative;
+    top: -444px;
+    left: 225px;
+
+}
+
+.logo2{
+    height: 85px;
+    position: relative;
+    top: -1163px;
+    left: 581px;
+}
+
+
+.titulo3{
+    font-weight: 500;
+    height: 0;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 50px;
+    position: relative;
+    top: 453px;
+    left: 74px;
+}
+
+
+.titulo4{
+    font-weight: 700;
+    background-color: #f0b33b;
+    padding: 8px;
+    border-radius: 10px;
+    height: 46px;
+    width: 116px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 22px;
+    position: relative;
+    top: 515px;
+    left: 74px;
+}
+
+.parrafo1{
+    margin-right: 845px;
+    font-size: 19px;
+    text-align: justify;
+    position: relative;
+    top: 558px;
+    left: 74px
+}
+
+.mockup1{
+    height: 500px;
+    position: relative;
+    top: -101px;
+    left: 674px;  
+}
+
+
+
+.titulo5{
+    font-weight: 200;
+    font-style: italic;
+    height: 0;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 40px;
+    position: relative;
+    top: 662px;
+    left: 74px;
+}
+
+.mockup2{
+    height: 197px;
+    position: relative;
+    top: 736px;
+    left: 63px;  
+}
+
+.titulo6{
+    font-weight: 200;
+    font-style: italic;
+    height: 0;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 40px;
+    position: relative;
+    top: 800px;
+    left: 74px;
+}
+
+.mockup3{
+    height: 121px;
+    position: relative;
+    top: 873px;
+    left: 63px;  
+}
+
+.paletadecolores{
+    display: grid;
+    column-gap: 0;
+    position: relative;
+    top: 301px;
+}
+.rosa{
+    background-color: #FCCDE1;
+    width: 489px;
+    height: 127px;
+    border-radius: 103px;
+    position: relative;
+    top: -171px;
+    left: 1079px;
+}
+
+.rosa2{
+    background-color: #F09baF;
+    width: 489px;
+    height: 127px;
+    border-radius: 103px;
+    position: relative;
+    top: -182px;
+    left: 1079px;
+}
+
+.rojo{
+    background-color: #CD132D;
+    width: 489px;
+    height: 127px;
+    border-radius: 103px;
+    position: relative;
+    top: -194px;
+    left: 1079px;
+}
+
+.vinotinto{
+    background-color: #860022;
+    width: 489px;
+    height: 127px;
+    border-radius: 103px;
+    position: relative;
+    top: -205px;
+    left: 1079px;
+}
+
+.mockupeimi{
+    display: flex;
+    position: relative;
+    top: -187px;
+    left: -101px;
+}
+
+.mockup4{
+    height: 470px;
+    position: relative;
+    top: 366px;
+    left: 63px;  
+}
+
+.mockup5{
+    height: 470px;
+    position: relative;
+    top: 366px;
+    left: 63px;  
+}
+
+.titulogalatas{
+    font-weight: 500;
+    height: 0;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 50px;
+    position: relative;
+    top: 1337px;
+    left: 74px;
+}
+
+.parrafo2{
+    margin-right: 864px;
+    font-size: 19px;
+    text-align: justify;
+    position: relative;
+    top: 1424px;
+    left: 74px
+}
+
+.mockup6{
+    height: 626px;
+    position: relative;
+    top: 680px;
+    left: 833px;  
+}
+
+.mockupgalatas{
+    display: flex;
+    position: relative;
+    top: 1661px;
+    left: -1004px;
+}
+
+.mockup7{
+    height: 550px;
+    position: relative;
+    top: -311px;
+    left: 1004px;  
+}
+
+.mockup8{
+    height: 550px;
+    position: relative;
+    top: -311px;
+    left: 1004px;  
+}
+
+.footer{
+    position: relative;
+    top: -3149px;
+}
+
+.backgroudmorado{
+    background-color: #8782D4;
+    height: 400px;
+    width: 1500px;
+    position: absolute;
+    top: 5000px;
+    left: 0;
+}
+
+.rectangulo1{
+    background-color: #ffffff;
+    width: 182px;
+    height: 7px;
+    position: relative;
+    top: 5055px;
+    left: 566px;
+}
+
+.gracias{
+    width: 200px;
+    height: 100px;
+    color: white;
+    font-size: 34px;
+    position: relative;
+    top: 5068px;
+    left: 568px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-weight: 566px;
+}
+
+.titulogracias{
+    position: relative;
+    top: 929px;
+    left: -119px;
+}
+
+.parrafo3{
+    width: 700px;
+    height: 200px;
+    color: white;
+    font-size: 34px;
+    position: relative;
+    top: 5063px;
+    left: 426px;
+    letter-spacing: 4px;
+}
+
+.botonescribenos{
+    width: 253px;
+    height: 68px;
+    appearance: none;
+    background-color: transparent;
+    border: 0.125rem solid hsl(0, 0%, 100%);
+    border-radius: 2.9375rem;
+    box-sizing: border-box;
+    letter-spacing: 5px;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: normal;
+    margin: 0;
+    min-height: 3.75rem;
+    min-width: 0;
+    outline: none;
+    padding: 1em 2.3rem;
+    text-align: center;
+    transition: all 300s (cubic-bezier(0.23, 1, 0.32, 1));
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    will-change: transform;
+    position: relative;
+    top: 4955px;
+    left: 541px;
+}
+
+.botonescribenos:disabled{
+pointer-events: none;
+
+}
+
+.botonescribenos:hover{
+color: #fff;
+background-color: #f0b33b;
+box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+transform: translateY(-2px);
+}
+
+.botonescribenos:active{
+    box-shadow: none;
+    transform: translateY(0);
+}
+.icono img {
+    height: 30px;
+    width: 30px;
+    padding: 3px;
+    position: relative;
+    top:4806px;
+    left: 616px;
+    
+    }
+    .icono {
+        height: 0;
+        width: 700px;
+    }
+    .icono img:disabled{
+        pointer-events: none;
+        
+        }
+    
+    .icono img:hover{
+        box-shadow: rgba(0, 0, 0, 0) 0 8px 15px;
+        transform: translateY(-2px);
+        }
+        
+        .icono img:active{
+            box-shadow: none;
+            transform: translateY(0);
+        }
+.flechafinal{
+    position: relative;
+    top: 4779px;
+    left: 1276px;
+    width: 50px;
+    height: 49px
+
+}
+
+.flechafinal:disabled{
+    pointer-events: none;
+    
+    }
+
+.flechafinal:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    border-radius: 35px;
+    transform: translateY(-2px);
+    }
+    
+    .flechafinal:active{
+        box-shadow: none;
+        border-radius: 10px;
+        transform: translateY(0);
+    }
+
+.fotokeren1{
+    height: 150px;
+    width: 150px;
+    position: relative;
+    top: -76px;
+    right: -64px;
+}
+
+
+
+
+
+
+

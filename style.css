@@ -1,0 +1,520 @@
+
+*{
+    font-family: "Montserrat",sans-serif;
+    font-style: normal;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none
+    
+}
+
+body{
+overflow-x: hidden;
+background-color: white;
+background-size: cover;
+background-position: center center;
+height: calc(100vh - 80px);
+}
+nav {
+height: 80px;
+width: 100%;
+background-color:white
+}
+
+.bars{
+height: 20px;
+}
+
+.enlace{
+position: absolute;
+padding: 20px 50px;
+}
+
+
+.logo1{
+height: 30px;
+}
+
+nav ul{
+float: right;
+margin-right: 20px;
+}
+
+nav ul li{
+display: inline-block;
+line-height: 80px;
+margin: 0 20px;
+}
+
+nav  ul li a{
+color: black;
+font-size: 20px;
+}
+
+li a.active, li a:hover {
+    background-color: rgba(137, 43, 226, 0.363);
+    border-radius: 10px;
+    transition: .5s;
+}
+
+.checkbtn{
+    font-size: 20px;
+    background-color: white;
+    float: right;
+    line-height: 80px;
+    margin: 5px 10px;
+    cursor: pointer;
+    display: none;
+
+}
+
+#check{
+display: none;
+}
+
+@media ( max-width: 952px) {
+.enlace {
+    padding-left: 20px;
+
+}
+
+nav ul li a{
+    font-size: 16px;
+}
+
+}
+
+@media ( max-width: 858px) {
+
+    .checkbtn{
+    display:block ;
+    }
+    ul{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: mediumorchid; 
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    transition: all .5s;
+}
+
+nav ul li{
+display: block;
+margin: 50px 0;
+line-height: 30px;
+}
+
+nav ul li a{
+font-size: 20px;
+}
+
+li a:hover, li a:active{
+background: none;
+color: white;
+}
+#check:checked ~ ul {
+    left: 0;
+}
+}
+.fondo1{
+background-color: #f3cd7a;
+height: 569px;
+width: 760px;
+margin-top: -128px;
+}
+.seccion1{
+    margin:30px 76px;
+    margin-top: -348px;
+    line-height: 1.2;
+    display: flex
+}
+.carrusel img{
+    display: flex;
+    height: 567px;
+    position: relative;
+    top: -221px;
+    left: 534px;
+}
+
+.vision1{
+     margin-top: -564px;
+    }
+
+
+.botoncontacto {
+    width: 150px;
+    height: 46px;
+    letter-spacing: 1px;
+    border: 3px solid #315dfd00;
+    border-radius: 45px;
+    transition: all 0.3s;
+    cursor: pointer;
+    background: #cd97e5;
+    font-size: 15px;
+    font-weight: 700;
+    position: relative;
+    top: 112px;
+  }
+  
+.botoncontacto:hover {
+    background: #8782d4;
+    color: white;
+    font-size: 1.5em;
+  }
+
+.titulo1{
+    position: relative;
+    top: 150px;
+    left: 79px;
+    justify-items: left;
+    font-weight: 600;
+    font-size: 50px
+}
+
+.seccion2{
+    display: flex;
+    margin:129px;
+    margin-left: 224px;
+    margin-top: -140px
+
+}
+
+.rectangulo1{
+    background-color: #80d5f2;
+    width: 90px;
+    height: 8px;
+    position: relative;
+    top: -104px;
+    left: 72px;
+}
+
+.titulo2{
+    font-size: 30px;
+    position: relative;
+    top: -104px;
+    left: 70px;
+}
+
+.parrafo1{
+    font-size: 19px;
+    text-align: justify;
+    position: relative;
+    top: 112px;
+    left: -159px
+}
+
+.parrafo2{
+    font-size: 19px;
+    text-align: justify;
+    position: relative;
+    top: 150px;
+    left: -160px;
+    
+}
+
+.botonquiensoy {
+    width: 150px;
+    height: 46px;
+    letter-spacing: 1px;
+    border: 3px solid #315dfd00;
+    border-radius: 45px;
+    transition: all 0.3s;
+    cursor: pointer;
+    background: #cd97e5;
+    font-size: 15px;
+    font-weight: 700;
+    position: relative;
+    top: 207px;
+    left: -168px;
+  }
+  
+.botonquiensoy:hover {
+    background: #8782d4;
+    color: white;
+    font-size: 1.5em;
+  }
+
+.seccion2 .fotokeren{
+    height: 500px;
+    width: 500px;
+    position: relative;
+    top: -76px;
+    right: -64px;
+}
+
+.rectangulo2{
+    background-color: #f3cd7a;
+    height: 699px;
+    width: 713px;
+    margin-top: -128px;
+
+}
+.fondo2{
+    display: flex;
+}
+.fotorigth{
+    height: 700px;
+    width: 700px;
+    position: relative;
+    top: -130px;
+    right: 0px;
+}
+.titulo3{
+    font-size: 34px;
+    position: relative;
+    top: -700px;
+    left: 70px;
+}
+
+.rectangulo3{
+    background-color: #000;
+    width: 90px;
+    height: 8px;
+    position: relative;
+    top: -710px;
+    left: 69px;
+}
+
+.parrafo3{
+    font-size: 19px;
+    text-align: justify;
+    position: relative;
+    top: 61px;
+    left: -112px
+}
+
+.parrafo4{
+    font-size: 19px;
+    text-align: justify;
+    position: relative;
+    top: 168px;
+    left: -649px;
+    
+}
+
+.container3{
+    display: flex;
+    margin:121px;
+    margin-left: 177px;
+    margin-top: -728px
+}
+
+.fotorevista{
+    height: 197px;
+    margin-top: 84px;
+    margin-left: 165px
+}
+
+.fotoservicios{
+    height: 483px;
+    position: relative;
+    top: 84px;
+    left: 97px;
+}
+
+.rectangulo5{
+    background-color: #80d5f2;
+    width: 90px;
+    height: 8px;
+    position: relative;
+    top: -392px;
+    left: 671px;
+}
+
+.titulo4{
+    font-size: 34px;
+    position: relative;
+    top: -372px;
+    left: 669px;
+}
+
+.parrafo5{
+    font-size: 19px;
+    text-align: justify;
+    position: relative;
+    top: 404px;
+    left: -47px;
+    
+}
+
+.container5{
+    display: flex;
+    margin:121px;
+    margin-left: 715px;
+    margin-top: -728px
+}
+
+.botonservicios {
+    width: 150px;
+    height: 46px;
+    letter-spacing: 1px;
+    border: 3px solid #315dfd00;
+    border-radius: 45px;
+    transition: all 0.3s;
+    cursor: pointer;
+    background: #cd97e5;
+    font-size: 15px;
+    font-weight: 700;
+    position: relative;
+    top: 500px;
+    left: 1042px;
+  }
+  
+.botonservicios:hover {
+    background: #8782d4;
+    color: white;
+    font-size: 15px;
+  }
+
+.backgroudmorado{
+    background-color: #8782D4;
+    height: 400px;
+    width: 1349px;
+    position: absolute;
+    top: 2592px;
+}
+
+.rectangulo6{
+    background-color: #ffffff;
+    width: 182px;
+    height: 7px;
+    position: relative;
+    top: 600px;
+    left: 585px;
+}
+
+.gracias{
+    color: white;
+    font-size: 34px;
+    position: relative;
+    top: 605px;
+    left: 583px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-weight: 900px;
+}
+
+
+.parrafo6{
+    color: white;
+    font-size: 34px;
+    position: relative;
+    top: 660px;
+    left: 431px;
+    letter-spacing: 4px;
+}
+
+.botonescribenos{
+    appearance: none;
+    background-color: transparent;
+    border: 0.125rem solid hsl(0, 0%, 100%);
+    border-radius: 2.9375rem;
+    box-sizing: border-box;
+    letter-spacing: 5px;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: normal;
+    margin: 0;
+    min-height: 3.75rem;
+    min-width: 0;
+    outline: none;
+    padding: 1em 2.3rem;
+    text-align: center;
+    transition: all 300s (cubic-bezier(0.23, 1, 0.32, 1));
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    will-change: transform;
+    position: relative;
+    top: 714px;
+    left: 565px;
+}
+
+.botonescribenos:disabled{
+pointer-events: none;
+
+}
+
+.botonescribenos:hover{
+color: #fff;
+background-color: #f0b33b;
+box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+transform: translateY(-2px);
+}
+
+.botonescribenos:active{
+    box-shadow: none;
+    transform: translateY(0);
+}
+
+.iconos img{
+height: 30px;
+padding: 3px;
+position: relative;
+top:744px;
+left: 623px;
+
+}
+
+.iconos img:disabled{
+    pointer-events: none;
+    
+    }
+
+.iconos img:hover{
+    box-shadow: rgba(0, 0, 0, 0) 0 8px 15px;
+    transform: translateY(-2px);
+    }
+    
+    .iconos img:active{
+        box-shadow: none;
+        transform: translateY(0);
+    }
+
+.flechafinal{
+    position: relative;
+    top: 690px;
+    left: 1280px;
+    width: 50px;
+    height: 49px
+
+}
+
+.flechafinal:disabled{
+    pointer-events: none;
+    
+    }
+
+.flechafinal:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    border-radius: 35px;
+    transform: translateY(-2px);
+    }
+    
+    .flechafinal:active{
+        box-shadow: none;
+        border-radius: 10px;
+        transform: translateY(0);
+    }
+
+.fotokeren1{
+    height: 150px;
+    width: 150px;
+    position: relative;
+    top: -76px;
+    right: -64px;
+}
+
+
+
+
+
+
+
